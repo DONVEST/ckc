@@ -37,6 +37,12 @@
                     </div>
 
                     <div class="form-floating mb-3">
+                        <input type="text" class="form-control" name="lga"
+                            value="" id="floatingText" placeholder="">
+                        <label for="floatingText">LGA: </label>
+                    </div>
+                    
+                    <div class="form-floating mb-3">
                         <input type="text" class="form-control" name="town"
                             value="" id="floatingText" placeholder="">
                         <label for="floatingText">Town: </label>
