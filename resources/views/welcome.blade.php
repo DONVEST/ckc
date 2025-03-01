@@ -94,8 +94,8 @@
                             <option selected disabled>Please Select an option</option>
                             <option value="None">None</option>
                             <option value="Baptism only">Baptism only</option>
-                            <option value=" Baptism/Holy_Communion">Baptism/Holy_Communion</option>
-                            <option value="Baptism/Holy_Communion/Confirmation">Baptism/Holy_Communion/Confirmation</option>
+                            <option value=" Baptism/Holy_Communion">Baptism and Holy_Communion</option>
+                            <option value="Baptism/Holy_Communion/Confirmation">Baptism, Holy_Communion and Confirmation</option>
                         </select>
                         
                     </div>
