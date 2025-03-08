@@ -25,9 +25,21 @@
                     </div>
 
                     <div class="form-floating mb-3">
-                        <input type="text" class="form-control" name="name"
+                        <input type="text" class="form-control" name="lastname"
                             value="" id="floatingText" placeholder="Surname Firstname Lastname">
-                        <label for="floatingText">Full Names:</label>
+                        <label for="floatingText">Surname:</label>
+                    </div>
+
+                    <div class="form-floating mb-3">
+                        <input type="text" class="form-control" name="firstname"
+                            value="" id="floatingText" placeholder="Surname Firstname Lastname">
+                        <label for="floatingText">First Name:</label>
+                    </div>
+
+                    <div class="form-floating mb-3">
+                        <input type="text" class="form-control" name="middlename"
+                            value="" id="floatingText" placeholder="Surname Firstname Lastname">
+                        <label for="floatingText">Middle Name:</label>
                     </div>
 
                     <div class="form-floating mb-3">
@@ -100,8 +112,8 @@
                             <option selected disabled>Please Select an option</option>
                             <option value="None">None</option>
                             <option value="Baptism only">Baptism only</option>
-                            <option value=" Baptism/Holy_Communion">Baptism and Holy_Communion</option>
-                            <option value="Baptism/Holy_Communion/Confirmation">Baptism, Holy_Communion and Confirmation</option>
+                            <option value=" Baptism and Holy_Communion">Baptism and Holy_Communion</option>
+                            <option value="Baptism, Holy_Communion and Confirmation">Baptism, Holy_Communion and Confirmation</option>
                         </select>
                         
                     </div>

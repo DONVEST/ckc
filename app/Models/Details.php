@@ -11,7 +11,9 @@ class Details extends Model
     use HasFactory;
 
     protected $fillable = [
-        'name',
+        'middlename',
+        'firstname',
+        'lastname',
         'state',
         'lga',
         'town',

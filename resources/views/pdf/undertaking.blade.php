@@ -10,7 +10,7 @@
             margin: 0;
         }
         .container {
-            width: 850px;
+            width: 900px;
             margin: 0px auto;
             padding: 5px 20px;
             border: 2px solid #000;
@@ -169,7 +169,7 @@
         
         <div class="letter">
             <p>
-                I <span>Obikwelu Sylvester</span> will be willing to assist in the sacred liturgy, will be actively involved all the activities going on in the association, will be ready to obey the executive arms of the association.
+                I <span>{{$lastname}} {{$firstname}} {{$middlename}}</span> will be willing to assist in the sacred liturgy, will be actively involved all the activities going on in the association, will be ready to obey the executive arms of the association.
                 Failure to comply to the stipulated above will attract immediate Suspension or Expulsion from the association.
 
             </p>
@@ -181,7 +181,7 @@
         
         <div class="letter">
             <p>
-                I <span>Barr. J.B.C Obikwelu</span> will be allowing my ward to come to practices and meetings of the association, where cogent reason is required in absentia , I WILL SEND IN PRIOR NOTICES AS TO SUCH. <br>
+                I <span>{{$parent_name}}</span> will be allowing my ward to come to practices and meetings of the association, where cogent reason is required in absentia , I WILL SEND IN PRIOR NOTICES AS TO SUCH. <br>
                 Failure to comply to the stipulated above will attract immidiate Suspension or Expulsion of your ward from the association.
 
 

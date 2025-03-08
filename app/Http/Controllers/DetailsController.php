@@ -28,7 +28,9 @@ class DetailsController extends Controller
 
         $data = $request;
 
-        $name = $request->name;
+        $lastname = $request->lastname;
+        $firstname = $request->firstname;
+        $middlename = $request->middlename;
         $state = $request->state;
         $lga = $request->lga;
         $town = $request->town;
@@ -50,14 +52,17 @@ class DetailsController extends Controller
 
         $message[] = ['Form Received', 'Form will now be compiled and downloaded', 'info'];
 
-        $pdf = Pdf::loadView('pdf.profile',compact('name','state','lga','town','school','class','date','parent_name','father_number','mother_number','personal_number','sacraments','sacred_liturgy','personal_liturgy','obey_executive','occupation','address','agreement'));
+        $pdf = Pdf::loadView('pdf.profile',compact('lastname','firstname','middlename','state','lga','town','school','class','date','parent_name','father_number','mother_number','personal_number','sacraments','sacred_liturgy','personal_liturgy','obey_executive','occupation','address','agreement'));
         
-        return $pdf->download(''.$name.'.pdf');
+        $x = $pdf->download(''.$lastname.' '.$firstname.' Renewal Form & Undertaking.pdf');
+        
+        return $x;
+        
     }
     
     public function download()
     {
-        $pdf = Pdf::loadView('pdf.form');
+        $pdf = Pdf::loadView('pdf.template');
         return $pdf->download('firt.pdf');
     }
 
