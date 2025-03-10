@@ -213,7 +213,7 @@
         </table>
         <br>
         <div class="section">
-            <span class="label">Have you received sacraments of:</span>
+            <span class="label">I have received sacraments of:</span>
             <span class="input-box">{{$sacraments}}</span>
         </div>
         
